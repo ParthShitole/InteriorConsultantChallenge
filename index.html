@@ -26,35 +26,54 @@
 
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+    <div class="nav-container">
+     <nav class="nav">
+        <button class="logo">This interior</button>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar" style="background-color: white;"></span>
+          <span class="bar" style="background-color: white;"></span>
+          <span class="bar" style="background-color: white;" ></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a class="nav-links home" href="#"><span class="nav-text">Home</span></a></li>
+          <li ><a class="nav-links home" href="#"><span class="nav-text">Collection</span></a></li>
+          <li ><a class="nav-links home" href="#"><span class="nav-text">About</span></a></li>
+          <li ><a class="nav-links home" href="#"><span class="nav-text">Contact</span></a></li>
+        </ul>
+     </nav>
     </div>
+    <div id="cover"></div>
+   <div class="Home-Container">
+    <div class="Home-internal-container">
+    <div class="info">
+      <h1>Modern interior</h1>
+      <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+      <h4>Read more</h4>
+    </div>
+    <div class="Image">
+      <img class="home-image" src="./Photos/photo1.png">
+    </div>
+    </div>
+    <div class="review">
+      <div class="review-top">
+        <div class="review-image-container">
+          <img class="review-image" src="./Photos/photo2.png">
+        </div>
+        <div class="review-name-container">
+          <h5 class="review-name">Aliza Webber</h5>
+          <h5 class="review-post">Interior Designer</h5>
+        </div>
+      </div>
+      <div class="review-bottom">
+        <h3>Designed in 2020 by</h3>
+        <h3>Aliza Webber</h3>
+      </div>
+    </div>
+   </div>
+
+   <script src="app.js"></script>
+
   </body>
+  
 </html>
