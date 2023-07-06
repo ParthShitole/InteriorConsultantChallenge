@@ -2,18 +2,19 @@
   box-sizing:border-box;
   margin:0;
   padding:0;
-  max-height: 600px;
 }
 body {
     font-family: "Poppins", sans-serif;
     background-color: #181719;
     z-index: -1;
-    overflow-x: hidden;
+    overflow: hidden;
+    max-height: 700px;
   }
 
   /* -------------------------------NAVBAR---------------------------------- */
 
 .nav-container{
+  max-width: 100%;
   z-index: 3;
   width: 100%;
   height:60px;
@@ -30,6 +31,7 @@ body {
   grid-template-columns: 15% 40% 45%;
   opacity: 1;
   align-items: center;
+  overflow-x: hidden;
 }
 .nav-menu{
   display: grid;
@@ -92,10 +94,11 @@ body {
     background:#EEEAEA;
     margin:0;
     width:100%;
+    max-width: 100%;
     height: 200px;
     position:absolute;
     top:180px;
-    right:-100%;
+    left:0%;
     opacity:0;
     transition:all 0.5 ease;
     text-align: center;
@@ -181,6 +184,7 @@ body {
 {
   width:100%;
   height: 500px;
+  overflow-x: hidden;
 }
 
 .Home-internal-container{
@@ -307,48 +311,68 @@ padding-top: 3%;
     margin-left: 11px;
   } 
   .Home-Container{
-    height: 550px;
-    margin-bottom: 20px;
+    height: 650px;
+    margin-bottom: 10px;
   }
   .Home-internal-container{
-    margin-top:30px;
+    margin-top:27px;
     display: block;
   }
   .info{
     padding-top: 0%;
     width: 100%;
-    height: 180px;
+    height: 210px;
   }
   .info h1{
-    font-size: 25px;
+    font-size: 30px;
   }
   .info p{
-    font-size: 12px ;
-    padding-right: 45%;
+    font-size: 15px ;
+    padding-right: 40%;
   }
   .info h4{
-    font-size:10px;
+    font-size:14px;
   }
   .Image{
     padding: 3%;
     width: 100%;
-    height: 300px;
-    margin-bottom: 50xp;
+    height: 380px;
+    margin-bottom: 20px;
   }
   .review{
-    width:150px;
-    height: 80px;
-    margin-top: 40px;
-    left:50%;
+    z-index: 2;
+    width:240px;
+    height: 110px;
+    margin-top: 140px;
+    left:25%;
     margin-bottom: 20px;
   }
   .review-name{
-    font-size: 10px;
+    font-size: 13px;
   }
   .review-post{
-    font-size: 9px;
+    font-size: 12px;
   }
   .review-bottom{
-    font-size: 9px;
+    font-size: 13px;
   }
+}
+
+.footer{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+}
+.footer h5{
+  color: #A9A9A9;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
 }
