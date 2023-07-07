@@ -151,6 +151,9 @@ body {
 #cover.im-active{
   opacity: 1;
 }
+#review.disappear{
+  display: none;
+}
 
 #mobile-menu.is-active .bar:nth-child(2)
 {
@@ -252,6 +255,7 @@ line-height: normal;
   margin-top: -40px;
   left:70%;
   overflow-y: hidden;
+  z-index: 1;
 }
 .review-top{
   width: 100%;
