@@ -172,7 +172,7 @@ body {
   top:0;
   left:0;
   width: 100%;
-  height: 600px;
+  height: 100vh;
   z-index: 2;
   background-color: #181719;
   opacity: 0;
@@ -183,14 +183,14 @@ body {
 .Home-Container
 {
   width:100%;
-  height: 500px;
+  height: calc( 100vh - 70px);
   overflow-x: hidden;
 }
 
 .Home-internal-container{
-  margin-top:60px;
+  margin-top:10vh;
   background-color: #181719;
-  height: 380px;
+  height: 60vh;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -205,7 +205,7 @@ body {
 
 .info h1{
   color: #FFF;
-font-size: 40px;
+font-size: 300%;
 font-family: Lora;
 font-style: normal;
 font-weight: 500;
@@ -214,7 +214,7 @@ line-height: normal;
 .info p{
   padding-top: 25px;
   color: #FFF;
-font-size: 20px;
+font-size: 140%;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 400;
@@ -223,7 +223,7 @@ line-height: normal;
 .info h4{
   padding-top: 20px;
   color: #FFF;
-font-size: 16px;
+font-size: 170%;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 700;
@@ -311,50 +311,51 @@ padding-top: 3%;
     margin-left: 11px;
   } 
   .Home-Container{
-    height: 650px;
+    height: calc( 100vh - 70px);
     margin-bottom: 10px;
   }
   .Home-internal-container{
-    margin-top:27px;
+    margin-top:4vh;
     display: block;
   }
   .info{
     padding-top: 0%;
     width: 100%;
-    height: 210px;
+    height: 27vh;
   }
   .info h1{
     font-size: 30px;
   }
   .info p{
-    font-size: 15px ;
-    padding-right: 40%;
+    font-size: 14px;
+    padding-right: 40vw;
   }
   .info h4{
-    font-size:14px;
+    font-size:110%;
   }
   .Image{
     padding: 3%;
     width: 100%;
-    height: 380px;
+    height: 45vh;
     margin-bottom: 20px;
   }
   .review{
     z-index: 2;
-    width:240px;
+    max-width: 250px;
+    width:55vw;
     height: 110px;
-    margin-top: 140px;
+    margin-top: 3vh;
     left:25%;
     margin-bottom: 20px;
   }
   .review-name{
-    font-size: 13px;
+    font-size: 85%;
   }
   .review-post{
-    font-size: 12px;
+    font-size: 75%vw;
   }
   .review-bottom{
-    font-size: 13px;
+    font-size: 80%;
   }
 }
 
@@ -364,7 +365,7 @@ padding-top: 3%;
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 20px;
+  bottom: 2vh;
 }
 .footer h5{
   color: #A9A9A9;
